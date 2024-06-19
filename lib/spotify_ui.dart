@@ -210,7 +210,7 @@ class _SpotifyUIState extends State<SpotifyUI> {
                     child: IconButton(
                       icon: const Icon(
                         Icons.play_arrow,
-                        color: Colors.white,
+                        color: Colors.red,
                         size: 60,
                       ),
                       onPressed: _showTutorialOverlay,
